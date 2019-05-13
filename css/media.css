@@ -1,0 +1,33 @@
+@media screen and (max-width: 1400px) {
+    #content-area .side-column {
+        width: 35%;
+        float: none;
+        display: inline-block;
+        /* margin: 0 auto; */
+    }
+
+
+
+    #content-area .main-area {
+        width: 50%;
+        float: none;
+        display: inline-block;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    #content-area .side-column {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+
+
+    #content-area .main-area {
+        display: block;
+        width: 100%;
+        margin: 140px auto;
+    }
+}

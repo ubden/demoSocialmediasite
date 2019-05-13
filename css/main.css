@@ -1,0 +1,468 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  background: #f4f4f4;
+}
+
+header {
+  background: #3b5998;
+  text-decoration: none;
+  padding: 20px;
+}
+
+header .logo-area {
+  color: #fff;
+  display: inline-block;
+  width: 20%;
+  text-transform: uppercase;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+/*************LOGO AREA *************/
+.logo-area a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/*************MENU AREA *************/
+.menu {
+  display: inline-block;
+  width: 20%;
+  border-right: 1px solid rgba(255, 255, 255, .5);
+  text-align: center;
+}
+
+.menu ul li {
+  display: inline-block;
+  margin-right: 20px;
+
+}
+
+/*************LINK AREA *************/
+.icon-links {
+  display: inline-block;
+  width: 20%;
+  padding-left: 20px;
+}
+
+.icon-links ul li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.icon-links .quick-options {
+  display: inline-block;
+  padding-right: 20px;
+  border-right: 1px solid rgba(255, 255, 255, .5);
+}
+
+.icon-links .privacy {
+  display: inline-block;
+  color: #fff;
+  padding-left: 20px;
+}
+
+/*************SEARCH AREA *************/
+.search-area {
+  display: inline-block;
+  width: 40%;
+  text-align: right;
+  color: #fff;
+}
+
+.search-area li {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.search-area input {
+  width: 50%;
+  background: none;
+  border-style: none;
+  border-bottom: 1px solid #fff;
+  padding: 5px;
+}
+
+.search-area input::placeholder {
+  color: #fff;
+
+}
+
+/*************TOP AREA *************/
+
+section#top-area {
+  background: url(../img/bg.jpg) no-repeat center center/cover;
+  height: 500px;
+  position: relative;
+}
+
+.profile-info {
+  /* background: #333; */
+  width: 30%;
+  position: absolute;
+  bottom: 100px;
+  left: 50px;
+  /* overflow: hidden; */
+}
+
+.profile-info .user-img {
+  display: inline-block;
+
+}
+
+.profile-info .user-img img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.profile-info .user-details {
+  display: inline-block;
+  padding-left: 20px;
+}
+
+.profile-info .profile-title {
+  color: #fff;
+  font-size: 40px;
+}
+
+.user-details {
+  vertical-align: top;
+}
+
+.user-details h2 {
+  margin-bottom: 40px;
+  margin-top: 30px;
+  font-weight: 300;
+}
+
+.user-details a {
+  color: #fff;
+  background: rgba(255, 255, 255, .3);
+  text-transform: uppercase;
+  padding: 15px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+
+/*************CONTENT AREA *************/
+
+
+#content-area {
+  background: #F4F4F4;
+  
+}
+
+#content-area .side-column {
+  float: left;
+  width: 20%;
+  margin: 0 2.5%;
+}
+
+#content-area .main-area {
+  float: left;
+  width: 70%;
+  margin: 0 2.5%;
+}
+
+.info-box {
+  background: #fff;
+  padding: 20px;
+  margin-top: 50px;
+  box-shadow: 0 10px 5px rgba(0,0,0,.3);
+}
+
+.info-box-title i,
+.info-box-title p {
+  display: inline-block;
+  font-size: 20px;
+}
+
+.info-box-title i {
+  background: rgba(112, 128, 144, .3);
+  color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+
+.info-box .info-box-info {
+  padding-top: 20px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.info-box .info-box-info h6 {
+  display: inline-block;
+}
+
+.info-box .info-box-info i {
+  float: right;
+  color: #333;
+
+}
+
+.info-box a {
+  text-transform: uppercase;
+  text-decoration: none;
+
+  padding: 20px 10px 10px 0;
+}
+
+.photo-box {
+  background: #fff;
+  margin-top: 10px;
+  box-shadow: 0 10px 5px rgba(0,0,0,.3);
+}
+
+.photo-box .info-box-title {
+  
+  padding: 20px;
+}
+
+i.fas.fa-arrow-down {
+  float: right;
+}
+
+.photo-box .photo-box-cell {
+  background: blue;
+  height:120px;
+  width: 32%;
+  display: inline-block;
+  background: url('http://placerabbit.com/rabbit/100x100.jpg') no-repeat center center/cover;
+  
+}
+
+.friends-box {
+  background: #fff;
+  margin-top: 10px;
+  box-shadow: 0 10px 5px rgba(0,0,0,.3);
+}
+
+.friends-box .friends-box-cell {
+  background: blue;
+  height: 120px;
+  width: 32%;
+  display: inline-block;
+  background: url('http://placerabbit.com/rabbit/100x100.jpg') no-repeat center center/cover;
+  
+}
+
+.friends-box .info-box-title {
+ 
+  padding: 20px;
+}
+
+.cell-container {
+  text-align: center;
+}
+
+/*Main area*/
+
+.menu-icons {
+  margin-top: -98px;
+  margin-bottom: 30px;
+  padding: 15px;
+  background: #fff;
+  box-shadow: 0 10px 5px rgba(0,0,0,.3);
+  position: relative;
+
+}
+
+.menu-icons .menu-item {
+  display: inline-block;
+  text-align: center;
+  font-size: 20px;
+  text-transform: uppercase;
+  width: 20%;
+  padding: 15px;
+}
+.menu-icons .menu-item i {
+  margin-bottom: 15px;
+}
+
+.menu-icons .menu-item:first-child {
+  border-bottom: 2px solid blue;
+  color: blue;
+}
+
+.menu-icons .ellipis {
+  display: inline-block;
+margin-left: 50px;
+}
+
+.share-box {
+  box-shadow: 10px 10px 15px 10px rgba(0,0,0,.3);
+}
+
+.share-box .share-box-title {
+  background: #fff;
+  padding: 15px;
+}
+
+.share-box .share-box-title .user-img-2 {
+  display: inline-block;
+}
+
+.share-box .share-box-title .share-box-info {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 10px;
+  line-height: 1.4;
+}
+.share-box .share-box-title .user-img-2 img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.share-box .share-box-title .share-box-info a {
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.share-box .share-box-title .share-box-info .timestamp {
+  color: lightgray;
+}
+
+.share-box .share-box-title  i {
+  padding-top: 15px;
+}
+
+.share-box .share-box-img img {
+  width: 100%;
+  height: auto;
+}
+
+.share-box .share-box-widgets {
+  padding: 15px;
+  background: #fff;
+}
+
+.share-box .share-box-widgets i {
+  color: #333;
+  padding: 10px;
+}
+
+i.far.fa-comment-alt {
+  float: right;
+}
+
+.share-box .share-box-comment {
+  background: #f4f4f4;
+  padding: 15px;
+  
+}
+.share-box .share-box-comment .comment-img {
+  display: inline-block;
+}
+.share-box .share-box-comment .comment {
+  display: inline-block;
+  width: 90%;
+  line-height: 1.4;
+  color: #333;
+  padding-bottom: 15px;
+}
+
+.share-box .share-box-comment .comment-img img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.share-box .share-box-comment .comment .name {
+  display: inline-block;
+  color: blue;
+}
+.share-box .share-box-comment .comment .time {
+  float: right;
+}
+
+.share-box .share-box-response {
+  padding: 15px;
+  background: #fff;
+}
+
+.share-box .share-box-response .response-img,
+.share-box .share-box-response .response-input {
+  display: inline-block;
+}
+.share-box .share-box-response .response-img img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.share-box .share-box-response .response-input {
+  border-bottom: 1px solid lightgray;
+  color: lightgray;
+  padding-bottom: 5px;
+  width: 93%;
+  vertical-align: top;
+  margin-top: 20px;
+}
+
+.share-box .share-box-response .response-input i {
+  float: right;
+  margin-right: 10px;
+}
+
+
+.main-area .photo-box {
+  height: 300px;
+  background: url('http://placerabbit.com/rabbit/900x300.jpg') no-repeat center center/cover;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.photo-box .photo-box-content {
+  padding: 10px;
+  background: rgba(0,0,0,.3);
+  color: #fff;
+  line-height: 1.4;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.photo-box .photo-box-content h3 {
+  font-size: 20px;
+
+}
+
+.photo-box .photo-box-content p {
+  font-size: 15px;
+  padding-bottom: 15px;
+}
+
+.photo-box .yesterday {
+  padding: 10px;
+  color: #333;
+  background: #fff;
+  
+}
+
+.photo-box .fab.fa-facebook-f {
+  color: blue;
+  font-size: 15px;
+  padding: 10px;
+  background: #fff;
+  border-radius: 50%;
+}
