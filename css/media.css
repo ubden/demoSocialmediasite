@@ -1,7 +1,7 @@
 @media screen and (max-width: 1400px) {
     #content-area .side-column {
         width: 35%;
-        float: none;
+       
         display: inline-block;
         /* margin: 0 auto; */
     }
@@ -10,7 +10,6 @@
 
     #content-area .main-area {
         width: 50%;
-        float: none;
         display: inline-block;
     }
 
