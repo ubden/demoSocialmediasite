@@ -15,4 +15,3 @@ Although the page isn't pixel perfect, it was a great learning experience to bui
 - HTML 
 - CSS
 - [Adobe Color](https://color.adobe.com) - a neat tool to create and save your own color palletes. 
-
