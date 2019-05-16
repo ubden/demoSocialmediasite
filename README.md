@@ -10,7 +10,7 @@ The course does not cover CSS Grid or Flexbox so I tried to not use either of th
 
 Although the page isn't pixel perfect, it was a great learning experience to build it from scratch.
 
-## Technology Used
+## Technology and Tools Used
 
 - HTML 
 - CSS
