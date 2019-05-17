@@ -1,3 +1,92 @@
+@media screen and (max-width: 767px) {
+
+    header .logo-area {
+        width: 50%; 
+    }
+    .menu {
+        border-right: none;
+        width: 50%;
+    }
+
+    .icon-links {
+        width: 100%; 
+        display: block;
+        margin: 30px 0;
+    }
+
+    .search-area {
+        width: 100%;
+    }
+
+    .search-area input {
+        width: 80%;
+    }
+
+    .search-area li i.fa-window-close {
+        display: none;
+    }
+
+    .profile-info {
+        width: 100%;
+        left: 50px;
+        top: 50px;
+        transform: translate(-50px, 50px);
+    }
+
+    .profile-info .profile-title {
+        text-align: center;
+        background: rgba(0,0,0, .8);
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .profile-info .user-details a {
+        background: rgba(0,0,0, .8);   
+    }
+
+    .menu-icons {
+        text-align: center;
+    }
+
+    .menu-icons .menu-item {
+        width: 45%;
+    }
+
+    .menu-icons .ellipis {
+        display: none;
+    }
+
+    #content-area {
+        margin-top: -50px;
+    }
+
+    #content-area .side-column {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+
+
+    #content-area .main-area {
+        display: block;
+        width: 100%;
+        margin: 140px auto;
+    }
+
+    .share-box .share-box-comment .comment-img {
+        margin-bottom: 10px;
+    }
+
+    .share-box .share-box-response .response-input {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1399px) {
+
+}
+
 @media screen and (max-width: 1400px) {
     #content-area .side-column {
         width: 35%;
@@ -13,20 +102,4 @@
         display: inline-block;
     }
 
-}
-
-@media screen and (max-width: 767px) {
-    #content-area .side-column {
-        display: block;
-        width: 100%;
-        margin: 0 auto;
-    }
-
-
-
-    #content-area .main-area {
-        display: block;
-        width: 100%;
-        margin: 140px auto;
-    }
 }
