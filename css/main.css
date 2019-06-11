@@ -16,7 +16,7 @@ header {
 header .logo-area {
   color: #fff;
   display: inline-block;
-  width: 20%;
+  width: 10%;
   text-transform: uppercase;
 }
 
@@ -37,7 +37,7 @@ header a {
 /*************MENU AREA *************/
 .menu {
   display: inline-block;
-  /* width: 20%; */
+  width: 20%;
   border-right: 1px solid rgba(255, 255, 255, .5);
   text-align: center;
 }
@@ -51,7 +51,7 @@ header a {
 /*************LINK AREA *************/
 .icon-links {
   display: inline-block;
-  width: 20%;
+  width: 25%;
   padding-left: 20px;
 }
 
@@ -372,6 +372,7 @@ i.far.fa-comment-alt {
 }
 .share-box .share-box-comment .comment-img {
   display: inline-block;
+  vertical-align: top;
 }
 .share-box .share-box-comment .comment {
   display: inline-block;
@@ -464,7 +465,7 @@ i.far.fa-comment-alt {
 .photo-box .fab.fa-facebook-f {
   color: blue;
   font-size: 15px;
-  padding: 10px;
+  padding: 15px;
   background: #fff;
   border-radius: 50%;
 }
