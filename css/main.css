@@ -133,7 +133,7 @@ section#top-area {
 
 .profile-info .profile-title {
   color: #fff;
-  font-size: 40px;
+  font-size: 50px;
 }
 
 .user-details {
@@ -148,7 +148,7 @@ section#top-area {
 
 .user-details a {
   color: #fff;
-  background: rgba(255, 255, 255, .3);
+  background: rgba(0,0,0, .5);
   text-transform: uppercase;
   padding: 15px;
   margin-bottom: 20px;
@@ -226,7 +226,7 @@ section#top-area {
 
 .photo-box {
   background: #fff;
-  margin-top: 10px;
+  margin-top: 20px;
   box-shadow: 0 10px 5px rgba(0,0,0,.3);
 }
 
@@ -250,7 +250,7 @@ i.fas.fa-arrow-down {
 
 .friends-box {
   background: #fff;
-  margin-top: 10px;
+  margin-top: 20px;
   box-shadow: 0 10px 5px rgba(0,0,0,.3);
 }
 
@@ -303,7 +303,10 @@ i.fas.fa-arrow-down {
 
 .menu-icons .ellipis {
   display: inline-block;
-margin-left: 50px;
+  width: 17%;
+  text-align: center;
+  position: relative;
+  top: -15px;
 }
 
 /* SHARE BOX/POST */
@@ -429,7 +432,7 @@ i.far.fa-comment-alt {
 
 
 .main-area .photo-box {
-  height: 300px;
+  height: 500px;
   background: url('http://placerabbit.com/rabbit/900x300.jpg') no-repeat center center/cover;
   margin-bottom: 50px;
   position: relative;

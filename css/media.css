@@ -1,11 +1,56 @@
+@media screen and (max-width: 1399px) {
+    .icon-links {
+        width: 40%;
+    }
+
+    .search-area {
+        width: 30%;
+    }
+
+
+    .profile-info {
+     width: 100%;
+     bottom: 150px;
+    }
+
+    .menu-icons .menu-item {
+        width: 49%;
+    }
+
+    .menu-icons .ellipis {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    #content-area .side-column {
+        /* width: 35%;
+       
+        display: inline-block; */
+        /* margin: 0 auto; */
+    }
+
+
+
+    #content-area .main-area {
+        /* width: 50%;
+        display: inline-block; */
+    }
+
+}
+
+
 @media screen and (max-width: 767px) {
 
     header .logo-area {
-        width: 50%; 
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 10px;
     }
     .menu {
-        border-right: none;
-        width: 50%;
+        display: none;
     }
 
     .icon-links {
@@ -36,12 +81,27 @@
     .profile-info .profile-title {
         text-align: center;
         background: rgba(0,0,0, .8);
-        padding: 20px;
+        padding: 10px;
         border-radius: 10px;
+        font-size: 30px;
+    }
+
+    .profile-info .user-img {
+        display: block;
+        text-align: center;
+    }
+
+    .profile-info .user-details {
+        display: block;
+        width: 100%;
+        padding: 20px;
     }
 
     .profile-info .user-details a {
-        background: rgba(0,0,0, .8);   
+        background: rgba(0,0,0, .8);  
+        display: inline-block;
+        width: 45%; 
+         text-align: center;
     }
 
     .menu-icons {
@@ -52,7 +112,7 @@
         width: 45%;
     }
 
-    .menu-icons .ellipis {
+    .photo-box, .friends-box {
         display: none;
     }
 
@@ -64,6 +124,8 @@
         display: block;
         width: 100%;
         margin: 0 auto;
+        float: none;
+        max-width: 600px;
     }
 
 
@@ -83,23 +145,3 @@
     }
 }
 
-@media screen and (max-width: 1399px) {
-
-}
-
-@media screen and (max-width: 1400px) {
-    #content-area .side-column {
-        width: 35%;
-       
-        display: inline-block;
-        /* margin: 0 auto; */
-    }
-
-
-
-    #content-area .main-area {
-        width: 50%;
-        display: inline-block;
-    }
-
-}
